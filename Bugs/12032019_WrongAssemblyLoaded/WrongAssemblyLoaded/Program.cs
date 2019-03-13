@@ -1,5 +1,5 @@
 ﻿using System;
-using DebugTests.Common.NugetWithPdb;
+//using DebugTests.Common.NugetWithPdb;
 
 namespace WrongAssemblyLoaded
 {
@@ -9,7 +9,7 @@ namespace WrongAssemblyLoaded
         {
             Console.WriteLine("Start");
 
-            var test = new DebugTests.Common.NugetWithPdb.DebuggingCommon();
+            //var test = new DebugTests.Common.NugetWithPdb.DebuggingCommon();
 
             Console.WriteLine("End");
             Console.ReadKey();

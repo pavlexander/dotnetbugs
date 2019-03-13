@@ -5,10 +5,4 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="DebugTests.Common.NugetWithPdb">
-      <HintPath>DebugTests.Common.NugetWithPdb.1.0.4\lib\netstandard2.0\DebugTests.Common.NugetWithPdb2.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
