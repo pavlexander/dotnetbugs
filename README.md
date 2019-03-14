@@ -14,4 +14,4 @@ https://github.com/dotnet/core/issues/2443
 
 Assembly built with "Portable" debugging information - contains source information.
 
-TBD
+https://github.com/dotnet/core/issues/2449
