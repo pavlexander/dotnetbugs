@@ -9,3 +9,9 @@ In Visual Studio, when trying to reference 1.0.4. version of an assembly - 1.0.1
 As the result - the solution is still compiled with 1.0.1 version.
 
 https://github.com/dotnet/core/issues/2443
+
+* 13.03.2019 DllIncludesPdbInformation
+
+Assembly built with "Portable" debugging information - contains source information.
+
+TBD
