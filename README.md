@@ -15,6 +15,7 @@ https://github.com/dotnet/core/issues/2443
 Assembly built with "Portable" debugging information - contains source information.
 
 https://github.com/dotnet/core/issues/2449
+
 https://github.com/dotnet/cli/issues/10982
 
 **UPDATE 25.03.2019**: As it turns out - this is not a bug. Apparently, the PDB file exists not only in BIN folder in the output folder of your project, but also inside OBJ folder. During debug session - Visual Studio tries to lookup this location. When the PDB is found - so is the source. There is more magic involved. I recommend reading through second issue for more information.
